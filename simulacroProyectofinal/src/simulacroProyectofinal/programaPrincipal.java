@@ -20,7 +20,9 @@ public class programaPrincipal {
 		
 		Equipo unEquipo2;
 		
-		String archivo= "C:\\Users\\BaGui\\eclipse-workspace\\simulacroProyectofinal\\archivos\\resultados.txt";
+		String archivo="C:\\Users\\BaGui\\git\\trabajointegrador\\simulacroProyectofinal\\archivos\\resultados.txt";
+		
+		
 		
 		for(String linea:Files.readAllLines(Paths.get(archivo))){
 			
@@ -77,7 +79,7 @@ public class programaPrincipal {
 		
 		Equipo Equipo2;
 		
-       String archivo2="C:\\Users\\BaGui\\eclipse-workspace\\simulacroProyectofinal\\archivos\\pronostico.txt";
+       String archivo2="C:\\Users\\BaGui\\git\\trabajointegrador\\simulacroProyectofinal\\archivos\\pronostico.txt";;
 		
 		for(String linea:Files.readAllLines(Paths.get(archivo2))){
 			
